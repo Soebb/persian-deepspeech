@@ -12,8 +12,8 @@ from pydeepspeech.util import get_appdatadir
 # AI model used for the application
 _VERSION = 'v0.9.3'
 _URLS = [
-    'https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.pbmm',
-    'https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer',
+    'https://itml.cl.indiana.edu/models/fa/output_graph.pbmm',
+    'https://itml.cl.indiana.edu/models/fa/kenlm.scorer',
 ]
 
 MODEL_DIR = os.path.join(get_appdatadir(), 'model', _VERSION)
