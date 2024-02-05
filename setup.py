@@ -78,7 +78,6 @@ setup(
         'pathlib',
         'capturing_process',
         'requests',
-        'pip-system-certs',
     ],
 
     entry_points = {
