@@ -4,10 +4,10 @@ import os
 import shutil
 import threading
 from pathlib import Path
+from pydeepspeech.util import get_appdatadir
 
 import requests
-
-from pydeepspeech.util import get_appdatadir
+requests.packages.urllib3.disable_warnings()
 
 # AI model used for the application
 _VERSION = 'v0.9.3'
