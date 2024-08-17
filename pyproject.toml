@@ -41,7 +41,7 @@ packages = [
     "/pydeepspeech"
 ]
 
-[tool.hatch.build.targets.sdist]
+[tool.hatch.build.targets.wheel]
 include = [
     "/pydeepspeech",
 ]
