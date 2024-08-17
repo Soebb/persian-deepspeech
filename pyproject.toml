@@ -36,8 +36,10 @@ pydeepspeech = "pydeepspeech.run:main"
 [project.urls]
 Homepage = "https://github.com/zackees/pydeepspeech"
 
-[tool.hatch.version]
-path = "pydeepspeech/__init__.py"
+[tool.hatch.build]
+packages = [
+    "/pydeepspeech"
+]
 
 [tool.hatch.build.targets.sdist]
 include = [
