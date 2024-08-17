@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pydeepspeech"
-dynamic = ["version"]
+version = "0.0.1"
 description = "Mozilla's DeepSpeech transcriber in a pip installable package."
 readme = "README.md"
 license = "MIT"
@@ -36,12 +36,8 @@ pydeepspeech = "pydeepspeech.run:main"
 [project.urls]
 Homepage = "https://github.com/zackees/pydeepspeech"
 
-[tool.hatch.build]
-packages = [
-    "/pydeepspeech"
-]
 
-[tool.hatch.build.targets.wheel]
+[tool.hatch.build.targets.sdist]
 include = [
     "/pydeepspeech",
 ]
