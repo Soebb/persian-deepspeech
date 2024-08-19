@@ -22,7 +22,7 @@ dependencies = [
     "deepspeech==0.9.3",
     "pathlib",
     "requests",
-    "webrtcvad",
+    "webrtcvad-wheels",
 ]
 
 [project.optional-dependencies]
