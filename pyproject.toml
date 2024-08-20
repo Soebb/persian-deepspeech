@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pydeepspeech"
-version = "0.0.2"
+version = "0.0.3"
 description = "Mozilla's DeepSpeech transcriber in a pip installable package."
 readme = "README.md"
 license = "MIT"
@@ -19,7 +19,7 @@ classifiers = [
 ]
 dependencies = [
     "capturing_process",
-    "deepspeech@git+https://github.com/soebb/deepspeech",
+    "deepspeech@https://github.com/soebb/deepspeech/archive/master.zip",
     "pathlib",
     "requests",
     "webrtcvad-wheels",
