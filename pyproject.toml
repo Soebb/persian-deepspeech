@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pydeepspeech"
-version = "0.0.1"
+version = "0.0.2"
 description = "Mozilla's DeepSpeech transcriber in a pip installable package."
 readme = "README.md"
 license = "MIT"
