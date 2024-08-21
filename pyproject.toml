@@ -19,7 +19,7 @@ classifiers = [
 ]
 dependencies = [
     "capturing_process",
-    "deepspeech@https://github.com/soebb/deepspeech/archive/master.zip",
+    "deepspeech@https://github.com/soebb/deepspeech/archive/main.zip",
     "pathlib",
     "requests",
     "webrtcvad-wheels",
