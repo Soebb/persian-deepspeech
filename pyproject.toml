@@ -19,7 +19,7 @@ classifiers = [
 ]
 dependencies = [
     "capturing_process",
-    "deepspeech@https://github.com/Soebb/deepspeech/releases/download/deepspeech0.9.3/deepspeech-0.9.3.tar.gz",
+    "deepspeech@https://files.pythonhosted.org/packages/f8/a4/224baca08a4474e810917ee367e3ceb4b26376071558237ef0513c81fe5e/deepspeech-0.9.3-cp37-cp37m-win_amd64.whl",
     "pathlib",
     "requests",
     "webrtcvad-wheels",
